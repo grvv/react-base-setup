@@ -1,7 +1,10 @@
-function Greetings() {
-  return <h1>Hello readers, Thankyou for reading this blog !</h1>;
-}
+import { add } from "./add";
+import { subtract } from "./subtract";
 
-// Render the component to the DOM
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Greetings />);
+// const add = require("./add");
+// const subtract = require("./subtract");
+
+console.log("Heavy Computation!!");
+
+console.log(add(4, 6));
+console.log(subtract(200, 50));
